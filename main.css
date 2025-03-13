@@ -1,0 +1,159 @@
+/* Configurações de Cabeçalho e Rodapé */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+header, footer {
+    background-color: rgb(62, 16, 16);
+    color: aliceblue;
+    padding: 16px;
+}
+
+header h1 {
+    font-family: "Iceland", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: none;
+    background: none;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+}
+
+footer {
+    padding: 24px;
+}
+/* Configuração das Seções */
+section .container {
+    margin-top: 8px;
+    align-items: flex-start;
+}
+
+section h2, h3 {
+    color: rgb(62, 16, 16);
+    margin-bottom: 16px;
+    font-family: "Funnel Display", sans-serif;
+}
+
+section h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+section {
+    padding: 24px, 0;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+section p {
+    margin-left: 10px;
+}
+
+section .container img {
+    width: 30%;
+    margin-right: 16px;
+}
+
+#formulario .container{
+    display: block;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+.contato-metodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo h3, p, img{
+    align-items: center;
+    margin-top: 24px;
+}
+
+.imagebox {
+    display: flex;
+    max-width: 1280px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.imagebox img {
+    width: 256px;
+    object-fit: cover;
+    scale: 100%;
+}
+
+section a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+div {
+    border-radius: 25px;
+    background: #66545482;
+    margin: 5px;
+    padding: 25px;
+    justify-content: center;
+}
+
+form button {
+    font-weight: bold;
+    color: aliceblue; 
+    background-color: rgb(62, 16, 16);
+    padding: 5px;
+}
+
+form button:hover {
+    background-color:rgb(109, 32, 32);
+}
+
+.conteudo li{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+
+#formulario img {
+    width: 24px;
+    padding: none;
+    margin: none;
+}
